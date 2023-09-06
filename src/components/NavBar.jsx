@@ -1,4 +1,4 @@
-import Logo from "../img/logo-cine.png"
+import Logo from "../img/NavBar/logo-brand.png"
 import CartWidget from "./CartWidget"
 
 const NavBar = () => {
@@ -8,21 +8,21 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light nav-encabezado">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img src={Logo} alt="logo cine" width="150" height="110" className="d-inline-block align-text-top" />
+                        <img src={Logo} alt="logo brand" width="200" height="110" className="d-inline-block align-text-top" />
                     </a>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item enlace">
-                                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a className="nav-link active" aria-current="page" href="#">Móviles</a>
                             </li>
                             <li className="nav-item enlace">
-                                <a className="nav-link active" href="#">Películas</a>
+                                <a className="nav-link active" href="#">TV & Audio</a>
                             </li>
                             <li className="nav-item enlace">
-                                <a className="nav-link active" href="#">Series</a>
+                                <a className="nav-link active" href="#">Electrodomésticos</a>
                             </li>
                             <li className="nav-item enlace">
-                                <a className="nav-link active" href="#">Colecciones</a>
+                                <a className="nav-link active" href="#">Computación</a>
                             </li>
                         </ul>
                     </div>

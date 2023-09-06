@@ -1,137 +1,146 @@
 [    
     {
         "id": 1,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Celular Galaxy S23 ULTRA Cream",
+        "descripción": "Cámara de alta resolución con modo nocturno mejorado\nPantalla Dynamic AMOLED 2X de 6.8' con alta visibilidad\nBatería de larga duración con capacidad de 5000 mAh\nResistente al agua, polvo y caídas con clasificación IP68\nProcesador Snapdragon 735 con 12 GB de RAM para alto rendimiento\nConectividad 5G para una navegación más rápida y fluida",
+        "categoría": "Móviles",
+        "imagen": "../img/productos/celular s23.png",
+        "precio": 779.999,
+        "cantidad": 10  
     },
     {
         "id": 2,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Celular Galaxy S22 Phantom Black",
+        "descripción": "Compatible con redes 5G\nPantalla Dynamic AMOLED 2X de 6.8\nTiene 4 cámaras traseras de 108Mpx/10Mpx/10Mpx/12Mpx\nCámara delantera de 40Mpx\nProcesador Exynos 2200 Octa-Core de 2.8GHz con 12GB de RAM\nBatería de 5000mAh con carga inalámbrica\nMemoria interna de 512GB\n",
+        "categoría": "Móviles",
+        "imagen": "../img/productos/celular s22.png",
+        "precio": 459.999,
+        "cantidad": 15  
     },
     {
         "id": 3,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Galaxy Watch5 Bluetooth (44mm) Graphite",
+        "descripción": "Pantalla táctil SAMOLED de 1.4'\nApto para descarga de aplicaciones\nResiste hasta 50m bajo el agua\nCon GPS y mapas integrados\nBatería de 40 h de duración y carga rápida\nConectividad por Bluetooth y wifi\nCapacidad de la memoria interna de 7.5GB\n",
+        "categoría": "Móviles",
+        "imagen": "../img/productos/smartwatch5.png",
+        "precio": 174.999,
+        "cantidad": 10 
     },
     {
         "id": 4,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Galaxy Watch4 Classic Bluetooth (46mm) Negro",
+        "descripción": "Pantalla táctil SAMOLED de 1.4'\nApto para descarga de aplicaciones\nReproduce audio y video\nResiste hasta 50m bajo el agua\nCon GPS integrado\nBatería de 40 h de duración\nConectividad por Bluetooth y wifi\nCapacidad de la memoria interna de 16GB",
+        "categoría": "Móviles",
+        "imagen": "../img/productos/smartwatc4.png",
+        "precio": 214.999,
+        "cantidad": 15 
     },
     {
         "id": 5,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "65' Crystal UHD BU8000",
+        "descripción": "Su resolución es 4K\nTecnología HDR para una calidad de imagen mejorada\nModo de sonido: Dolby Digital Plus, Adaptive Sound, Q-Symphony\nManejalo por comando de voz\nConectá tus dispositivos mediante sus 3 puertos HDMI y sus 2 puertos USB\nCon sistema de cables ocultos",
+        "categoría": "TV & Audio",
+        "imagen": "../img/productos/tv crystal 65.png",
+        "precio": 474.999,
+        "cantidad": 20 
     },
     {
         "id": 6,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "55' Neo QLED 4K QN85B",
+        "descripción": "Pantalla QLED 4K de 55' para colores vibrantes y detalles nítidos\nTecnología HDR para mayor contraste y realismo en imágenes\nSistema operativo Tizen para acceso rápido a aplicaciones y streaming\nConectividad WiFi para disfrutar contenido online sin cables\n4 puertos HDMI y 2 puertos USB para conectar dispositivos fácilmente\nFrecuencia de actualización de 120 Hz para imágenes fluidas y sin desenfoques",
+        "categoría": "TV & Audio",
+        "imagen": "../img/productos/tv Neo 55.png",
+        "precio": 809.999,
+        "cantidad": 15 
     },
     {
         "id": 7,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "MX-T70 1500W Sound Tower",
+        "descripción": "Sonido bidireccional\nWoofer integrado\nBass Booster (Alta potencia de 500W)\nDisfrutá de la calidad y el efecto del cine en casa",
+        "categoría": "TV & Audio",
+        "imagen": "../img/productos/sound tower 1500W.png",
+        "precio": 399.999,
+        "cantidad": 20
     },
     {
         "id": 8,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Barra de sonido Q-Series HW-Q930C",
+        "descripción": "Compatible para conectarse mediante HDMI\nIncluye un parlante: subwoofer\nCon formato de audio MP3/WMA/AAC/OGG/FLAC/WAV/ALAC/AIFF\nDisfrutá de la calidad y el efecto del cine en casa\nIncluye cables: HDMI",
+        "categoría": "TV & Audio",
+        "imagen": "../img/productos/barra de sonido.png",
+        "precio": 725.170,
+        "cantidad": 15 
     },
     {
         "id": 9,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Horno Smart con tecnología HotBlast 28 litros",
+        "descripción": "Con grill\nCon descongelado automático por peso\nCon traba de seguridad para niños\nCapacidad en volumen: 28 L\nCon convección",
+        "categoría": "Electrodomésticos",
+        "imagen": "../img/productos/horno electrico.png",
+        "precio": 238.499,
+        "cantidad": 20 
     },
     {
         "id": 10,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Hogar Heladera freezer superior con dispensador de agua 457 L",
+        "descripción": "Modelo detallado: RT48A6640B1\nTipo de deshielo: no frost\nCapacidad de 457 litros\nCon freezer superior\nCon iluminación interior\nDimensiones: 700 mm de ancho, 1810 mm de alto y 742 mm de profundidad",
+        "categoría": "Electrodomésticos",
+        "imagen": "../img/productos/heladera.png",
+        "precio": 745.999,
+        "cantidad": 15 
     },
     {
         "id": 11,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Lavarropa 9.5Kg Inverter con Ecobubble Y Eficiencia energetica A+++ Gris",
+        "descripción": "Carga frontal de 9.5 kg\nCentrifuga a una velocidad de 1400 rpm\nTambor de acero inoxidable\nEficiencia energética A+++\nComodidad y practicidad para tu hogar",
+        "categoría": "Electrodomésticos",
+        "imagen": "../img/productos/lavarropa.png",
+        "precio": 375.999,
+        "cantidad": 15 
     },
     {
         "id": 12,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Split Frio/Calor 3260W Inverter con ahorro energetico AR12BSH",
+        "descripción": "Capacidad de refrigeración de 10748 BTU\nCapacidad de calefacción de 11500 BTU\nFrigorías: 2687\nPotencia de refrigeración de 981W y de calefacción de 934W\nCon función deshumidificación\nPosee tecnología inverter\nEficiencia energética: A\nCuenta con función de dormir\nTiene temporizador",
+        "categoría": "Electrodomésticos",
+        "imagen": "../img/productos/split.png",
+        "precio": 397.999,
+        "cantidad": 20 
     },
     {
         "id": 13,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
-    },
+        "nombre": "Galaxy Book3 (15.6',i7,16GB)",
+        "descripción": "Procesador Intel i7\nMemoria RAM de 16GB\nPantalla FHD PLS de 15'nResolución de fhd\nPlaca de video Intel Iris Xe\nConexión wifi\nCuenta con puerto USB y puerto HDMI\nModo de sonido Dolby digital",
+        "categoría": "Computación",
+        "imagen": "../img/productos/book3.png",
+        "precio": 699.999,
+        "cantidad": 15 
+    },    
     {
         "id": 14,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Galaxy Book3 Pro (14',i5,16GB)",
+        "descripción": "Procesador Intel i5-1340P\nMemoria RAM de 16GB\nPantalla WQXGA+ AMOLED de 14'\nResolución de 2880x1800 px\nPlaca de video Intel Iris Xe\nConexión wifi y bluetooth\nCuenta con puerto USB y puerto HDMI\nModo de sonido Dolby Digital",
+        "categoría": "Computación",
+        "imagen": "../img/productos/book3 pro.png",
+        "precio": 1.094999,
+        "cantidad": 15 
     },
     {
         "id": 15,
-        "nombre": ,
-        "descripción": ,
-        "categoría": ,
-        "imagen": ,
-        "precio": ,
-        "cantidad":  
+        "nombre": "Monitor Gaming 25' FHD 240Hz con panel IPS",
+        "descripción": "Este monitor de 25 te va a resultar cómodo para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 1.92 x 1.08 te permite disfrutar de momentos únicos gracias a una imagen de alta fidelidad",
+        "categoría": "Computación",
+        "imagen": "../img/productos/monitor g4.png",
+        "precio": 237.499,
+        "cantidad": 20
+    },
+    {
+        "id": 16,
+        "nombre": "Monitor Gaming Odyssey G5 27' QHD 165hz Curvo",
+        "descripción": "Este monitor de 32' te va a resultar cómodo para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 2560 x 1440 te permite disfrutar de momentos únicos gracias a una imagen de alta fidelidad.  Con 1,7 veces la densidad de píxeles de Full HD, la resolución WQHD ofrece imágenes increíblemente detalladas y nítidas.",
+        "categoría": "Computación",
+        "imagen": "../img/productos/monitor g5.png",
+        "precio": 368.688,
+        "cantidad": 15  
     }
 ]
