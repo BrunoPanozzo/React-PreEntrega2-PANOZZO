@@ -11,7 +11,7 @@ const ItemCount = () => {
             setContador(contador+1)
     }
 
-    const decrementarCantidad =() => {
+    const decrementarCantidad = () => {
         if(contador>=1)
             setContador(contador-1)
     }
@@ -24,9 +24,8 @@ const ItemCount = () => {
         <div className="container">
             <div className="counter">
                 <button id="btnDecrementar" onClick={decrementarCantidad}>-</button>
-                <label id="counter-value">0</label>
+                <label id="counter-value">{contador}</label>
                 <button id="btnIncrementar" onClick={incrementarCantidad} >+</button>
-
             </div>
             <button id="agregarAlCarrito" onClick={() => onAdd()}>Agregar al carrito</button>
         </div>
