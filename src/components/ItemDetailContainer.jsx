@@ -1,40 +1,45 @@
 import { useState, useEffect } from 'react'
 import productos from "../data/productos.json"
 import ItemDetail from "./ItemDetail"
+import Loading from './Loading'
+import { useParams } from 'react-router'
 
-function cargarProducto(id) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            const productoPorID = productos.filter((valor) => {
-                return valor.id === id
-            })
-            resolve(productoPorID)
-        }, 2000);
-    })
-}
 
-const ItemDetailContainer = ({ id })  => {
+const ItemDetailContainer = ()  => {
+    
+    function cargarProducto(id) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                let productoPorID = productos.find(valor => 
+                    valor.id === parseInt(id)
+                )
+                resolve(productoPorID)
+            }, 2000);
+        })
+    }
 
     const [producto, setProducto] = useState()
-    let [loading, setLoading] = useState(true)
-    // const [tipo, setTipo] = useState(tipoProducto)
+    const [loading, setLoading] = useState(true)
+    const {id} = useParams()
 
     useEffect(() => {
         cargarProducto(id)
             .then((data) => {
                 setProducto(data)
             })
-            .finally(() => {
+            .finally(() => {                
                 setLoading(false)
             });
-    }, [])
+    }, [id])
 
 
     if (loading) {
-        return <p>Cargando producto seleccionado...</p>;
+        return (
+            <Loading texto={"Cargando producto seleccionado..."}/>
+        )
     }
 
-    if (!producto) return null;
+    // if (!producto) return null;
 
     return (
         <div className="item-detail-container">

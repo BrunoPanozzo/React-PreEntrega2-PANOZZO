@@ -17,6 +17,11 @@
   align-content: space-between;
 }
 
+.active {
+  color: rgb(16, 16, 153) !important;
+  font-weight: bold;
+}
+
 .enlace a {
   text-decoration: none;
   font-size: 20px;
@@ -24,7 +29,7 @@
 }
 
 .enlace a:hover {
-  color: #ebd219;
+  color: rgb(16, 16, 153);
   background-color: transparent;
   font-weight: bold;
 }

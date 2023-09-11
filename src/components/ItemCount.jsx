@@ -1,7 +1,7 @@
 import '../styles/ItemCount.css'
 import { useState, useRef } from 'react'
 
-const ItemCount = ({stock, cantidadInicial, onAdd}) => {
+const ItemCount = ({stock, cantidadInicial}) => {
 
     const [stockDisponible, setStockDisponible] = useState(stock);
     const [contador, setContador] = useState(cantidadInicial);
@@ -16,8 +16,16 @@ const ItemCount = ({stock, cantidadInicial, onAdd}) => {
             setContador(contador-1)
     }    
     
+    function onAdd() {
+        if (contador <= stockDisponible) {
+            setStockDisponible(stockDisponible - contador)
+            setContador(0)  //reinicio
+        }
+    }
+
     return (
         <div className="container">
+            <p>Stock Disponible: {stockDisponible}</p>
             <div className="counter">
                 <button id="btnDecrementar" onClick={decrementarCantidad}>-</button>
                 <label id="counter-value">{contador}</label>

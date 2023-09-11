@@ -2,7 +2,7 @@ import Carrito from "../img/NavBar/carrito.png"
 
 const CartWidget = () => {
 
-    const cantidadProductos = 3;
+    const cantidadProductos = 0;
 
     return (
         <div>

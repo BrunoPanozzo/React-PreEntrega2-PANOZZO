@@ -9,7 +9,6 @@ function ItemList({ productosAMostrar }) {
             {productosAMostrar.map((producto) => (
                 <Item key={producto.id} producto={producto} />
             ))}
-
         </div>
     );
 }

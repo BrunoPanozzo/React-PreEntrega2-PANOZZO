@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react'
 import productos from "../data/productos.json"
 import ItemList from "./ItemList"
+import Loading from './Loading'
+import { useParams } from 'react-router'
 
-function cargarProductos(tipo) {
+function cargarProductos(nombreCategoria) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (!tipo)
+            if (!nombreCategoria)
                 resolve(productos)
             else {
                 const productosPorTipo = productos.filter((valor) => {
-                    return valor.tipo === tipo
+                    return valor.categoría === nombreCategoria
                 })
                 resolve(productosPorTipo)
             }
@@ -17,25 +19,26 @@ function cargarProductos(tipo) {
     })
 }
 
-const ItemListContainer = ({ tipoProducto }) => {
+const ItemListContainer = () => {
 
     const [productosFiltrados, setProductosFiltrados] = useState(productos)
     let [loading, setLoading] = useState(true)
-    const [tipo, setTipo] = useState(tipoProducto)
+    const {nombreCategoria} = useParams()
 
     useEffect(() => {
-        cargarProductos(tipo)
+        cargarProductos(nombreCategoria)
             .then((data) => {
                 setProductosFiltrados(data)
             })
             .finally(() => {
                 setLoading(false)
             });
-    }, [])
-
+    }, [nombreCategoria])
 
     if (loading) {
-        return <p>Cargando productos...</p>;
+        return (
+            <Loading texto={"Cargando productos..."}/>
+        )
     }
 
     return (
