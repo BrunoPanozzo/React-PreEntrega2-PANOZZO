@@ -1,6 +1,7 @@
 import './styles/app.css'
 import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer'
 
 export function App() {
 
@@ -11,7 +12,9 @@ export function App() {
      <div>    
         <NavBar/>
         <ItemListContainer greeting= {texto}/>
+        <ItemDetailContainer id={1} />
      </div>
+
    )
 }
 

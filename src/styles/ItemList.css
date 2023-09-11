@@ -1,0 +1,74 @@
+
+.grillaProductos .titulo-importante1 {
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Black Han Sans", sans-serif;
+}
+
+.grillaProductos {
+    background-color: #c04338;
+    min-height: 70vh;
+    display: flex;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: flex-start;
+  align-content: space-between; 
+    /* height: 1600px; */
+}
+
+.cartelera .contenedor-cartelera .film .imgfilm {
+    float: left;
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.cartelera .contenedor-cartelera .film .imgfilm:hover {
+    transform: scale(1.1);
+}
+
+.cartelera .contenedor-cartelera .film .info-pelicula .titulo-importante4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cartelera .contenedor-cartelera .film .info-pelicula .genero-pelicula {
+    padding: 10px;
+}
+
+.cartelera .contenedor-cartelera .film .info-pelicula .genero-pelicula:hover {
+    text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.cartelera .contenedor-cartelera .film .info-pelicula .resumen-pelicula {
+    padding: 10px;
+}
+
+
+.cartelera .contenedor-cartelera {
+    margin: 25px auto;
+    width: 1600px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.401);
+}
+
+.titulo-importante1,
+.cartelera {
+    text-align: left;
+    color: #dffffb;
+    margin: 50px;
+    padding-top: 30px;
+}
+
+.cartelera .contenedor-cartelera .film .info-pelicula .titulo-importante4,
+.film {
+    text-align: left;
+    color: #e30a0a;
+    margin: 10px;
+}

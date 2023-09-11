@@ -1,10 +1,10 @@
 import '../styles/ItemCount.css'
-import {useState} from 'react'
+import { useState, useRef } from 'react'
 
-const ItemCount = () => {
+const ItemCount = ({stock, cantidadInicial, onAdd}) => {
 
-    const [stockDisponible, setStockDisponible] = useState(10);
-    const [contador, setContador] = useState(0);
+    const [stockDisponible, setStockDisponible] = useState(stock);
+    const [contador, setContador] = useState(cantidadInicial);
 
     const incrementarCantidad = () => {
         if(contador<stockDisponible)
@@ -14,12 +14,8 @@ const ItemCount = () => {
     const decrementarCantidad = () => {
         if(contador>=1)
             setContador(contador-1)
-    }
-
-    function ondAdd () {
-       setStockDisponible(stockDisponible - count);
-    }
-
+    }    
+    
     return (
         <div className="container">
             <div className="counter">

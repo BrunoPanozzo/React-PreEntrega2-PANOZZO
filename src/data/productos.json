@@ -6,7 +6,7 @@
         "categoría": "Móviles",
         "imagen": "../img/productos/celular s23.png",
         "precio": 779.999,
-        "cantidad": 10  
+        "stock": 10  
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "categoría": "Móviles",
         "imagen": "../img/productos/celular s22.png",
         "precio": 459.999,
-        "cantidad": 15  
+        "stock": 15  
     },
     {
         "id": 3,
@@ -24,16 +24,16 @@
         "categoría": "Móviles",
         "imagen": "../img/productos/smartwatch5.png",
         "precio": 174.999,
-        "cantidad": 10 
+        "stock": 10 
     },
     {
         "id": 4,
         "nombre": "Galaxy Watch4 Classic Bluetooth (46mm) Negro",
         "descripción": "Pantalla táctil SAMOLED de 1.4'\nApto para descarga de aplicaciones\nReproduce audio y video\nResiste hasta 50m bajo el agua\nCon GPS integrado\nBatería de 40 h de duración\nConectividad por Bluetooth y wifi\nCapacidad de la memoria interna de 16GB",
         "categoría": "Móviles",
-        "imagen": "../img/productos/smartwatc4.png",
+        "imagen": "../img/productos/smartwatch4.png",
         "precio": 214.999,
-        "cantidad": 15 
+        "stock": 15 
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "categoría": "TV & Audio",
         "imagen": "../img/productos/tv crystal 65.png",
         "precio": 474.999,
-        "cantidad": 20 
+        "stock": 20 
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "categoría": "TV & Audio",
         "imagen": "../img/productos/tv Neo 55.png",
         "precio": 809.999,
-        "cantidad": 15 
+        "stock": 15 
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "categoría": "TV & Audio",
         "imagen": "../img/productos/sound tower 1500W.png",
         "precio": 399.999,
-        "cantidad": 20
+        "stock": 20
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "categoría": "TV & Audio",
         "imagen": "../img/productos/barra de sonido.png",
         "precio": 725.170,
-        "cantidad": 15 
+        "stock": 15 
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "categoría": "Electrodomésticos",
         "imagen": "../img/productos/horno electrico.png",
         "precio": 238.499,
-        "cantidad": 20 
+        "stock": 20 
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "categoría": "Electrodomésticos",
         "imagen": "../img/productos/heladera.png",
         "precio": 745.999,
-        "cantidad": 15 
+        "stock": 15 
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "categoría": "Electrodomésticos",
         "imagen": "../img/productos/lavarropa.png",
         "precio": 375.999,
-        "cantidad": 15 
+        "stock": 15 
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "categoría": "Electrodomésticos",
         "imagen": "../img/productos/split.png",
         "precio": 397.999,
-        "cantidad": 20 
+        "stock": 20 
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "categoría": "Computación",
         "imagen": "../img/productos/book3.png",
         "precio": 699.999,
-        "cantidad": 15 
+        "stock": 15 
     },    
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "categoría": "Computación",
         "imagen": "../img/productos/book3 pro.png",
         "precio": 1.094999,
-        "cantidad": 15 
+        "stock": 15 
     },
     {
         "id": 15,
@@ -132,7 +132,7 @@
         "categoría": "Computación",
         "imagen": "../img/productos/monitor g4.png",
         "precio": 237.499,
-        "cantidad": 20
+        "stock": 20
     },
     {
         "id": 16,
@@ -141,6 +141,6 @@
         "categoría": "Computación",
         "imagen": "../img/productos/monitor g5.png",
         "precio": 368.688,
-        "cantidad": 15  
+        "stock": 15  
     }
 ]
