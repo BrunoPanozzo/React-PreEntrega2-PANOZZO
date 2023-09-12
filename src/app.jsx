@@ -5,10 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export function App() {
 
-   const texto = "Próximamente Nuevos Estrenos";
-
-   return (
-      
+   return (      
      <div>    
          <BrowserRouter>
             <NavBar/>
@@ -20,7 +17,6 @@ export function App() {
             </Routes>
          </BrowserRouter>
      </div>
-
    )
 }
 
