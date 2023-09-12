@@ -11,7 +11,7 @@ function Item({ producto }) {
                 <img src={producto.imagen} alt={producto.nombre} width="270" />
             </Link>
             <p>{producto.precio}</p>
-            <Link to={"/item/" + producto.id} className="btn btn-secondary text-decoration text-center">
+            <Link to={`/item/${producto.id}`} className="btn btn-secondary text-decoration text-center">
                 Ver detalle
             </Link>
         </div>

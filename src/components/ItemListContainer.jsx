@@ -4,23 +4,23 @@ import ItemList from "./ItemList"
 import Loading from './Loading'
 import { useParams } from 'react-router'
 
-function cargarProductos(nombreCategoria) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            if (!nombreCategoria)
-                resolve(productos)
-            else {
-                const productosPorTipo = productos.filter((valor) => {
-                    return valor.categoría === nombreCategoria
-                })
-                resolve(productosPorTipo)
-            }
-        }, 2000);
-    })
-}
-
 const ItemListContainer = () => {
 
+    function cargarProductos(nombreCategoria) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (!nombreCategoria)
+                    resolve(productos)
+                else {
+                    const productosPorTipo = productos.filter((valor) => {
+                        return valor.categoría === nombreCategoria
+                    })
+                    resolve(productosPorTipo)
+                }
+            }, 2000);
+        })
+    }
+    
     const [productosFiltrados, setProductosFiltrados] = useState(productos)
     let [loading, setLoading] = useState(true)
     const {nombreCategoria} = useParams()

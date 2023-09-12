@@ -1,9 +1,18 @@
+import { Link } from "react-router-dom";
 import ItemCount from "./ItemCount";
+import { useState } from 'react'
 
 function ItemDetail({ producto }) {
-       
-    let cantidadInicial = 1
-   
+
+    const [stockDisponible, setStockDisponible] = useState(producto.stock);
+    const [contador, setContador] = useState(0);
+
+    function onAdd(cantidadElegida) {
+
+        setContador(cantidadElegida)
+        setStockDisponible(stockDisponible - cantidadElegida)
+    }
+
     return (
 
         <div>
@@ -13,8 +22,9 @@ function ItemDetail({ producto }) {
             <p>{producto.categoría}</p>
             <p>{producto.descripción}</p>
             <p>${producto.precio}</p>
-            {/* <p>Stock Disponible: {producto.stock}</p> */}
-            <ItemCount stock={producto.stock} cantidadInicial={cantidadInicial}/>
+            <p>Stock Disponible: {stockDisponible}</p>
+
+            {contador > 0 ? <Link to="/cart">Finalizar Compra</Link> : <ItemCount stock={producto.stock} cantidadInicial={contador} onAdd={onAdd} />}
         </div>
     );
 }

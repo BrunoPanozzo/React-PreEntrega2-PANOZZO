@@ -13,6 +13,9 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item enlace">
+                            <NavLink className="nav-link" to="/">Tienda Online</NavLink>
+                        </li>
+                        <li className="nav-item enlace">
                             <NavLink className="nav-link" to="/category/Móviles">Móviles</NavLink>
                         </li>
                         <li className="nav-item enlace">
