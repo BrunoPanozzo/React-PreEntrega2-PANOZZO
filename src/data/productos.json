@@ -24,7 +24,7 @@
         "categoría": "Móviles",
         "imagen": "../img/productos/smartwatch5.png",
         "precio": 174.999,
-        "stock": 10 
+        "stock": 20 
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "categoría": "Móviles",
         "imagen": "../img/productos/smartwatch4.png",
         "precio": 214.999,
-        "stock": 15 
+        "stock": 25 
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "categoría": "TV & Audio",
         "imagen": "../img/productos/tv crystal 65.png",
         "precio": 474.999,
-        "stock": 20 
+        "stock": 10 
     },
     {
         "id": 6,
@@ -69,7 +69,7 @@
         "categoría": "TV & Audio",
         "imagen": "../img/productos/barra de sonido.png",
         "precio": 725.170,
-        "stock": 15 
+        "stock": 25 
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "categoría": "Electrodomésticos",
         "imagen": "../img/productos/horno electrico.png",
         "precio": 238.499,
-        "stock": 20 
+        "stock": 10 
     },
     {
         "id": 10,
@@ -96,7 +96,7 @@
         "categoría": "Electrodomésticos",
         "imagen": "../img/productos/lavarropa.png",
         "precio": 375.999,
-        "stock": 15 
+        "stock": 20 
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "categoría": "Electrodomésticos",
         "imagen": "../img/productos/split.png",
         "precio": 397.999,
-        "stock": 20 
+        "stock": 25
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "categoría": "Computación",
         "imagen": "../img/productos/book3.png",
         "precio": 699.999,
-        "stock": 15 
+        "stock": 10 
     },    
     {
         "id": 14,
@@ -141,6 +141,6 @@
         "categoría": "Computación",
         "imagen": "../img/productos/monitor g5.png",
         "precio": 368.688,
-        "stock": 15  
+        "stock": 25  
     }
 ]

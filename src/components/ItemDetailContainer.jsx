@@ -4,7 +4,6 @@ import ItemDetail from "./ItemDetail"
 import Loading from './Loading'
 import { useParams } from 'react-router'
 
-
 const ItemDetailContainer = ()  => {
     
     function cargarProducto(id) {
@@ -32,21 +31,17 @@ const ItemDetailContainer = ()  => {
             });
     }, [id])
 
-
     if (loading) {
         return (
             <Loading texto={"Cargando producto seleccionado..."}/>
         )
     }
 
-    // if (!producto) return null;
-
     return (
         <div className="item-detail-container">
             <ItemDetail producto={producto} />
         </div>
     )
-
 }
 
 export default ItemDetailContainer

@@ -6,13 +6,13 @@
 }
 
 .counter {
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 3px solid;   
+    border: 2px solid;   
     font: bold 1rem sans-serif;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 #btnIncrementar,
@@ -47,12 +47,8 @@
     background-color: #121a1b;    
 }
 
-button .visible {
-    background-color: #121a1b;   
-    color: white;
-}
-
-button .hide {
-    background-color: #b4bcbd;   
-    color: rgb(134, 193, 24);
+#btnIncrementar:hover,
+#btnDecrementar:hover,
+#agregarAlCarrito:hover {
+    background-color: rgb(53, 53, 218);
 }

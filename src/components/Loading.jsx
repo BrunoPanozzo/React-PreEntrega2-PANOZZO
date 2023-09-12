@@ -1,6 +1,6 @@
-import "../styles/Loading.css"
+import "../styles/loading.css"
 
-function Loading({texto}) {
+function Loading({ texto }) {
     return (
         <div className="d-flex align-items-center snipper">
             <strong className="textoSpinner">{texto}</strong>

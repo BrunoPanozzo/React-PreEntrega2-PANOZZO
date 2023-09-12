@@ -20,10 +20,10 @@ const ItemListContainer = () => {
             }, 2000);
         })
     }
-    
+
     const [productosFiltrados, setProductosFiltrados] = useState(productos)
-    let [loading, setLoading] = useState(true)
-    const {nombreCategoria} = useParams()
+    const [loading, setLoading] = useState(true)
+    const { nombreCategoria } = useParams()
 
     useEffect(() => {
         cargarProductos(nombreCategoria)
@@ -37,17 +37,15 @@ const ItemListContainer = () => {
 
     if (loading) {
         return (
-            <Loading texto={"Cargando productos..."}/>
+            !nombreCategoria ? <Loading texto={"Cargando productos..."} /> : <Loading texto={`Cargando productos de la categría ${nombreCategoria}...`} />
         )
     }
 
     return (
         <div className="item-list-container">
-            {/* <h1>{greeting}</h1> */}
             <ItemList productosAMostrar={productosFiltrados} />
         </div>
     )
-
 }
 
 export default ItemListContainer

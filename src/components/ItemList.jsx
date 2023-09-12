@@ -1,14 +1,16 @@
-import '../styles/ItemList.css'
+import '../styles/itemList.css'
 import Item from './Item'
 
 function ItemList({ productosAMostrar }) {
 
     return (
-        <div className="item-list">
-            <h1>Productos Seleccionados</h1>
-            {productosAMostrar.map((producto) => (
-                <Item key={producto.id} producto={producto} />
-            ))}
+        <div>
+            <h1 className="titulo-importante">Productos Seleccionados</h1>
+            <div className="item-list">
+                {productosAMostrar.map((producto) => (
+                    <Item key={producto.id} producto={producto} />
+                ))}
+            </div>
         </div>
     );
 }
