@@ -26,6 +26,7 @@ const ItemListContainer = () => {
     const { nombreCategoria } = useParams()
 
     useEffect(() => {
+        setLoading(true)
         cargarProductos(nombreCategoria)
             .then((data) => {
                 setProductosFiltrados(data)
